@@ -1,0 +1,19 @@
+##
+## @package TYPO3
+## @subpackage simplemvc_helloworld
+## @version $Id: constants.txt 219 2013-10-30 10:05:10Z franzholz $
+##
+
+plugin.tx_simplemvchelloworld {
+    # cat=plugin.tx_simplemvchelloworld/file; type=file[html,htm,tmpl,txt]; label= Template File: HTML-template file
+  file.templateFile = EXT:simplemvc_helloworld/Resources/Private/Templates/tx_simplemvchelloworld_tmpl.html
+
+    # cat=plugin.tx_simplemvchelloworld/text; type=string; label= Output Text: This text will be shown in the FE.
+  text = Hello world!
+
+    # cat=plugin.products//; type=eint+; label=PID for list page: Enter the PID of the list page here.
+  PIDlist =
+
+    # cat=plugin.products//; type=eint+; label=PID for list page: Enter the PID of the single record page here.
+  PIDsingle =
+}

@@ -1,0 +1,22 @@
+##
+## @package TYPO3
+## @subpackage simplemvc_helloworld
+## @version $Id: setup.txt 219 2013-10-30 10:05:10Z franzholz $
+##
+
+plugin.tx_simplemvchelloworld = USER_INT
+
+plugin.tx_simplemvchelloworld {
+
+	templateFile = {$plugin.tx_simplemvchelloworld.file.templateFile}
+	text = {$plugin.tx_simplemvchelloworld.text}
+	PIDlist = {$plugin.tx_simplemvchelloworld.PIDlist}
+	PIDsingle = {$plugin.tx_simplemvchelloworld.PIDsingle}
+
+	listView {
+		LINK = TEXT
+		LINK {
+			typolink.parameter = ###PID###
+		}
+	}
+}

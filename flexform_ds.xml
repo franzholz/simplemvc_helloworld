@@ -1,0 +1,35 @@
+<T3DataStructure>
+	<meta>
+	    <langDisable>1</langDisable>
+	</meta>
+	  <ROOT>
+	    <type>array</type>
+	    <el>
+	      <display_mode>
+			<TCEforms>
+				<label>LLL:EXT:simplemvc_helloworld/locallang_db.xml:tt_content.pi_flexform.display_mode</label>
+				<config>
+					<type>select</type>
+					<items>
+						<numindex index="1">
+							<numindex index="0">LLL:EXT:simplemvc_helloworld/locallang_db.xml:tt_content.pi_flexform.display_mode.1</numindex>
+							<numindex index="1">HELLOWORLD</numindex>
+						</numindex>
+						<numindex index="2">
+							<numindex index="0">LLL:EXT:simplemvc_helloworld/locallang_db.xml:tt_content.pi_flexform.display_mode.2</numindex>
+							<numindex index="1">HELLOWORD</numindex>
+						</numindex>
+						<numindex index="3">
+							<numindex index="0">LLL:EXT:simplemvc_helloworld/locallang_db.xml:tt_content.pi_flexform.display_mode.3</numindex>
+							<numindex index="1">HELLOWORDS</numindex>
+						</numindex>
+					</items>
+					<size>3</size>
+					<minitems>1</minitems>
+					<maxitems>3</maxitems>
+				</config>
+			</TCEforms>
+	      </display_mode>
+	    </el>
+	  </ROOT>
+</T3DataStructure>

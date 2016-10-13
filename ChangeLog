@@ -1,0 +1,7 @@
+2013-10-05  Franz Holzinger  <franz@fholzinger.com>
+
+	* add SingeView class which uses a HTML template and markers to generate the output
+
+2013-08-29  Franz Holzinger  <franz@fholzinger.com>
+
+	* simplemvc_helloworld 0.0.0 upload for TYPO3 6.2
